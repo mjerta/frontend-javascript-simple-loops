@@ -7,8 +7,9 @@
 // ==========================================
 
 
-
-
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!");
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die tijdens iedere herhaling de waarde van i logt in de zin: "De waarde van i is [nummer]"
@@ -21,8 +22,9 @@
 // ==========================================
 
 
-
-
+for (let i = 0; i < 5; i++) {
+    console.log("De waarde van i is " + i);
+}
 
 // ==========================================
 // Opdracht 3a. Maak een for-loop die de waarde van i logt. De loop begint bij 2 (!) en loopt tot en met 10.
@@ -39,8 +41,9 @@
 // ==========================================
 
 
-
-
+for (let i = 2; i < 11; i++) {
+    console.log(i);
+}
 
 // ==========================================
 // Opdracht 3b. Gebruik dezelfde for-loop uit 3a, maar log nu de waarde van i vermenigvuldigd met 7.
@@ -57,7 +60,9 @@
 // ==========================================
 
 
-
+for (let i = 2; i < 11; i++) {
+    console.log(i * 7);
+}
 
 
 // ==========================================
@@ -75,7 +80,9 @@
 // ==========================================
 
 
-
+for (let i = 2; i < 11; i++) {
+    console.log("Wanneer een hond " + i + " jaar is, staat dat gelijk aan " + (i * 7) + " mensenjaren.");
+}
 
 
 // ==========================================
@@ -93,5 +100,12 @@
 // ==========================================
 
 
+for (let i = 0; i < 16; i++) {
+    if (i % 2 === 0) {
+        console.log(i + " is even");
+    } else {
+        console.log(i + " is oneven");
+    }
+}
 
 
